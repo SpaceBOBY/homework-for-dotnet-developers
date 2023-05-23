@@ -1,6 +1,8 @@
 # Challenge
 
-Task is to develop a simple app that handles order placement. It should be implemented as a headless web api that exposes following endpoints:
+Task is to develop a simple library that handles order placement. 
+
+The functionality should cover following:
 * Place an order for a DNA testing kit providing desired amount of kits, customer id and expected delivery date
 * List all customer orders
 
@@ -14,7 +16,12 @@ Reject order placement when:
 * Desired amount is not positive round number
 * Desired amount is greater than 999
 
+Considerations for the design:
+* In future we will have many kit variants
+* Each kit variant may have a different base price
+
 You can skip authentication and authorization. 
+API or UI or DB is not required.
 
 ## Technical requirements
 * Use c# programming language
