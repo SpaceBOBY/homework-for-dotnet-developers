@@ -19,9 +19,10 @@ Reject order placement when:
 Considerations for the design:
 * In future we will have many kit variants
 * Each kit variant may have a different base price
+* Consider that your library would be added to a project storing data somewhere
 
 You can skip authentication and authorization. 
-API or UI or DB is not required.
+API or UI or DB implementation is not required for this task.
 
 ## Technical requirements
 * Use c# programming language
